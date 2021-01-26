@@ -1,0 +1,369 @@
+html{
+    font-size: 62.5%;
+    font-size: 11px;
+}
+
+body{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family: 'Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif';  
+    color: #54595d;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1px solid #c8ccd1;
+}
+
+.content{
+    display: block;
+}
+
+.main-title{
+    margin-top: 60px;
+}
+
+.main-tittle-logo{
+    position: relative;
+    margin: 0 auto 5px;
+    width: 270px;
+    text-align: center;
+    align-content: center;
+}
+
+.main-title strong{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.title-wikipedia{
+    background-image: url('/Image/text-wikipedia.png');
+    background-size: contain;
+    width: 176px;
+    height: 32px;   
+    margin: 0 auto;
+    display: block;
+}
+
+.wikipedia-logo{
+    position: absolute;
+    top: 138px;
+    left: 35px;
+}
+.main-wikipedia{
+    position: relative;
+    margin: 0 auto;
+    width: 546px;
+    height: 325px;
+    /* max-width: 54.6rem; */
+}
+
+.box-lenguage{
+    font-family: "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif";
+    position: absolute;
+    text-align: center;
+    width: 156px;
+}
+
+.box-lenguage.box-español{
+    top: 0;
+    right: 60%;
+}
+
+.box-lenguage.box-japones{
+    top: 20%;
+    right: 70%;
+}
+
+.box-lenguage.box-ruso{
+    top: 40%;
+    right: 72%;
+}
+
+.box-lenguage.box-italiano{
+    top: 60%;
+    right: 70%;
+}
+
+.box-lenguage.box-polski{
+    top: 80%;
+    right: 60%;
+}
+
+.box-lenguage.box-english{
+    top: 0;
+    left: 60%;
+}
+
+.box-lenguage.box-aleman{
+    top: 20%;
+    left: 70%;
+}
+
+.box-lenguage.box-frances{
+    top: 40%;
+    left: 72%;
+}
+
+.box-lenguage.box-chino{
+    top: 60%;
+    left: 70%;
+}
+
+.box-lenguage.box-portugues{
+    top: 80%;
+    left: 60%;
+}
+
+.box-lenguage a{
+    color: #36c;
+    text-decoration: none;
+}
+
+.box-lenguage strong{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.box-lenguage small{
+    font-size: 13px;
+    line-height: 1.6px;
+    color: #54595d;
+}
+
+.main-search{
+    display: flex;
+    justify-content: center;
+}
+
+.text-search
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c8ccd1;
+    border-radius: 2px;
+    height: 46px;
+}
+
+.text-search select{
+    border:none;
+    background-color: transparent;
+    width: 13px;
+    margin: auto 5px;
+}
+
+.text-search input{
+    /* height: 26px; */
+    width: 275px;
+    border: none;
+    text-decoration: none;
+    padding: 8px 64px 8px 12px;
+}
+
+.text-search .icon-search{
+    height: inherit;
+    width: 46px;
+    height: 48px;
+    z-index: 2;
+    border-radius: 0 2px 2px 0;
+    background-color: #35c;
+    background-size: contain;
+    display: inline-block;
+    background-image: url('/Image/icon-search.svg');
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button{
+    border: 1px solid #c8ccd1;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 30px auto;
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 282px;
+    height: 36px;
+    outline: 5px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    cursor: pointer;
+    outline: 1.5rem solid #fff;
+}
+
+.button button{
+    padding: 6px 12px; 
+    background-color: transparent;
+    border: none;  
+    cursor: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.button button span{
+    margin: 5px;
+    color: #36c;
+    font-weight: 550;
+}
+
+.icon-lenguage{
+    background-image: url('/Image/lenguage.svg');
+    background-size: 22px;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    background-position: center;
+    display: block;
+}
+
+
+.line{
+    position: relative;
+    top: -48px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #c8ccd1;
+    width: 436px;
+    margin: 0 auto;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-columns: 33% 67%;
+    font-size: 1.3rem;
+    color: #54595d;
+    padding: 0 12.8px 12.8px;
+}
+
+.main-footer-left{
+    min-width: 367px;
+    font-size: 1.3rem;
+}
+
+.main-footer-about{
+    max-width: 350px;
+    padding: 5px;
+    margin: 0 auto 32px;
+    display: flex;
+}
+
+.main-footer-about.wikipedia{
+   background-color: #f8f9fa;
+}
+
+.main-footer-about.content{
+    display: block;
+}
+
+.main-footer-project{
+    padding: 5px;
+    margin: 0 10px 32px;
+    display: flex;
+}
+
+.main-footer-project.content{
+    display: block;
+}
+
+.main-footer-project .tittle{
+    color: #36c;
+    display: block;
+}
+
+
+.wrapper-icon{
+    width: 42px;
+    height: 42px;
+    background-position: center;
+    
+}
+
+.wrapper-icon-project{
+    width: 42px;
+    height: 42px;
+    background-position: center;
+    padding-top: 7px;
+    
+}
+
+.main-footer-download{
+    display: flex;
+}
+
+.icon{
+    width: 42px;
+    height: 42px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    
+}
+
+.icon.icon-wikimedia{
+    background-image: url('/Image/wikimedia.png'); 
+}
+
+.icon.icon-wikipedia{
+    background-image: url('/Image/wikipedia.png');    
+}
+
+.icon-download{
+    background-size: contain;      
+    height: 38px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.icon-download.icon-play-store{
+    width: 124px;
+    background-image: url('/Image/get-in-on-play-store.png');   
+}
+
+.icon-download.icon-app-store{
+    width: 127px;
+    background-image: url('/Image/download-on-app-store.png');   
+}
+
+.main-footer-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project{
+    margin: 0 15px 32px;
+    display: flex;
+}
+
+footer{         
+    display: flex;
+    justify-content: center;
+}
+
+footer small{
+    font-size: inherit;
+}
+
+footer ul{
+    display: flex;    
+}
+
+.pointer{
+    cursor: pointer;
+    color: #36c;
+    text-decoration: none;
+    text-decoration-style: solid;
+}
+.point::after{
+    content: "\2022";
+    font-size: 1.3rem;
+    line-height: inherit;
+    margin-left: .8rem;
+    margin-right: .5rem;
+    color: #54585d;
+}
